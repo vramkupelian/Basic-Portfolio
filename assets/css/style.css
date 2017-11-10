@@ -9,6 +9,10 @@ img{
     padding-top:30px;
 }
 
+.form{
+    width: 650px;
+    border:1px solid #dddddd;
+}
 .about-me{
     border:1px solid #dddddd; 
     width:650px;
@@ -24,6 +28,16 @@ img{
     width:960px;
     margin:auto;
 
+
+}
+
+.connection-box{
+    width:270px;
+    float:right;
+    background-color:#ffffff;
+    color:#cccccc; 
+    border:1px solid #cccccc; 
+    text-align:center;
 }
 
 h1,h2 {
@@ -46,5 +60,16 @@ div{
 p, a {
     font-family:Arial, Helvetica, sans-serif;
     color:#777777;
+}
+
+body{
+    background-image: url(assets/images/regal.jpg);
+}
+
+.footer{
+    background-color:#666666;
+    color:#ffffff;
+ 
+    
 }
 
