@@ -32,6 +32,7 @@ h1,h2 {
 
 }
 
+/*
 div{
 
     background-color:#ffffff;
@@ -39,6 +40,8 @@ div{
     border: 1px solid #cccccc;
 
 }
+*/
+
 
 p, a {
     font-family:Arial, Helvetica, sans-serif;
