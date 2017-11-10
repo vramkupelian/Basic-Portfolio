@@ -1,0 +1,47 @@
+img{
+    width:25%;
+    height:auto;
+}
+
+.giant{
+    width:960px;
+    margin:auto;
+    padding-top:30px;
+}
+
+.about-me{
+    border:1px solid #dddddd; 
+    width:650px;
+    flex:1 0 auto;
+    margin:auto;
+    float:left;
+    text-align: top;
+}
+
+.main-header {
+    background-color:#ffffff;
+    border:1px solid #cccccc;
+    width:960px;
+    margin:auto;
+
+}
+
+h1,h2 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+
+}
+
+div{
+
+    background-color:#ffffff;
+    color:#cccccc;
+    border: 1px solid #cccccc;
+
+}
+
+p, a {
+    font-family:Arial, Helvetica, sans-serif;
+    color:#777777;
+}
+
