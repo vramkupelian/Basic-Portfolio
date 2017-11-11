@@ -13,6 +13,7 @@ body{
     flex-direction:column;
     
 }
+
 .giant{
     width:960px;
     margin:auto;
@@ -40,6 +41,13 @@ body{
 
 }
 
+.container{
+    border:1px solid #dddddd;
+    background-color:#ffffff;
+    overflow:auto;
+    width:650px;
+    
+}
 .main-header {
     background-color:#ffffff;
     border:1px solid #cccccc;
