@@ -3,6 +3,24 @@ img{
     height:auto;
 }
 
+a:hover{
+    color: #4aaaa5;
+}
+
+img:hover{
+    outline: 2px solid gray;
+}
+
+.photo-vram {
+    float: left; 
+    padding:18px;
+}
+
+.photo-vram:hover{
+  
+    outline-offset: -10px;
+}
+
 html,body{
     height:100%;
 }
@@ -10,8 +28,7 @@ html,body{
 body{
     background-image: url(assets/images/regal.jpg);
     display:flex;
-    flex-direction:column;
-    
+    flex-direction:column;    
 }
 
 .giant{
@@ -20,7 +37,6 @@ body{
     padding-top:30px;
     flex:1 0 auto;
 }
-
 
 .leftside {
     float:left; 
@@ -47,7 +63,6 @@ body{
     color: #ffffff;
 }
 
-
 .form{
     width: 600px;
     border:1px solid #dddddd;
@@ -55,6 +70,7 @@ body{
     padding-left: 25px;
     padding-right: 25px;
 }
+
 .about-me{
     border:1px solid #dddddd; 
     width:600px;
@@ -64,7 +80,6 @@ body{
     text-align: top;
     padding-left: 25px;
     padding-right:25px;
-
 }
 
 .container{
@@ -72,9 +87,9 @@ body{
     background-color:#ffffff;
     overflow:auto;
     width:600px;
-    padding:25px;
-    
+    padding:25px;    
 }
+
 .main-header {
     background-color:#ffffff;
   /*  border:1px solid #cccccc;*/
@@ -121,11 +136,14 @@ li{
     width:100%;
     padding:1rem;
     margin: auto;
-
 }
 
 nav{
     position:relative;
     top: 30px;
     right: 15px;
+}
+
+a:hover{
+    color: #4aaaa5;
 }
