@@ -3,10 +3,6 @@ img{
     height:auto;
 }
 
-a:hover{
-    color: #4aaaa5;
-}
-
 img:hover{
     outline: 2px solid gray;
 }
@@ -51,6 +47,10 @@ body{
     text-align: bottom;
 }
 
+.leftside:hover{
+    outline:2px solid #4aaaa5;
+}
+
 .rightside {
     float:right; 
     width:250px; 
@@ -61,6 +61,10 @@ body{
     background-size: 100% 100%;
     border-color:#dddddd;
     color: #ffffff;
+}
+
+.rightside:hover{
+    outline:2px solid #4aaaa5;
 }
 
 .form{
